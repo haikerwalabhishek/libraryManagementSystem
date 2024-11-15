@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';  // Import useNavigate for redirection
-import { addBook } from '../redux/bookSlice';
+import { addBook } from '../redux/bookSlice.js';
 import './addbook.css';
 
 const AddBook = () => {
