@@ -15,7 +15,7 @@ This Library book management system app is a simple frontend-only web applicatio
 [link](https://haikerwalabhishek.github.io/libraryManagementSystem/)
 
 
-<img src="https://raw.githubusercontent.com/haikerwalabhishek/ToDoList/refs/heads/main/preview.png">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/haikerwalabhishek/libraryManagementSystem/refs/heads/main/preview.png">&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 # Deploy Vite app to GitHub Pages using GitHub Actions
