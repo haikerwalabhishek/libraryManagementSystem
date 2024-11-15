@@ -12,7 +12,7 @@ This Library book management system app is a simple frontend-only web applicatio
 - After forking or pulling the repository, run npm install.
 
 # Website Link
-[link](https://haikerwalabhishek.github.io/ToDoList/)
+[link](https://haikerwalabhishek.github.io/libraryManagementSystem/)
 
 
 <img src="https://raw.githubusercontent.com/haikerwalabhishek/ToDoList/refs/heads/main/preview.png">&nbsp;&nbsp;&nbsp;&nbsp;
