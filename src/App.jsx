@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes, HashRouter} from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Navbar from "./components/Navbar.jsx";
 import AddBook from "./pages/AddBook.jsx";
@@ -8,6 +8,7 @@ import NotFound404 from "./pages/NotFound404.jsx";
 import MobileNavbar from "./components/MobileNavbar.jsx";
 import { Provider } from 'react-redux';
 import {store} from "./redux/store.js"
+
 
 
 const App = () => {
