@@ -1,0 +1,42 @@
+.searcMobile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.SearchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    min-width: 30%;
+}
+
+.searchBar{
+    height: 60%;
+    width: 85%;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border: none;
+    padding:0 5%;
+    outline: none;
+}
+
+.searchBarBtn{
+    height: 60%;
+    padding: 0;
+    width: 15%;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    background-color: #c2824e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.searchBarBtn:hover{
+    cursor: pointer;
+    background-color: #c56211;
+}

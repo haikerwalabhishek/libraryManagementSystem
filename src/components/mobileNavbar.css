@@ -1,0 +1,72 @@
+.mobileNavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    background-color: #f4f1ee;
+    position: relative;
+}
+
+.mobileNavTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:0 5%;
+}
+
+.hamburgerIconMobile{
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.mobileNavTitle{
+    font-weight:900;
+    font-size: larger;
+}
+
+.searchMobile{
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    background-color: #f4f1ee;;
+}
+
+.mobileNavLinks {
+    position: absolute;
+    bottom: -90px; 
+    right: 10px;   
+    background-color: #f4f1ee;
+    padding: 10px;
+    gap: 5px;
+    min-width: 100px;
+    min-height: 70px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+
+.mobileNavLinks a{
+    color: black;
+    padding: 4px;
+    font-weight:600;
+}
+
+.mobileNavLinks a:hover{
+    background-color: #fec038
+    color: #f4f1ee;
+}
+
+
+
+@media screen and (min-width: 426px) {
+    .mobileNavbarContainer {
+      display: none;
+    }
+    .searchMobile{
+        display: none;
+    }
+}

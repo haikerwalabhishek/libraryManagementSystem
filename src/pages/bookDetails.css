@@ -1,0 +1,161 @@
+.book-details-container {
+  padding: 40px;
+  background: url("../../public/images/wave3.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 0%;
+  box-shadow: inset 0px 0px 1000px black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.containerdetails {
+  background-color: #ffffffd3;
+  border-radius: 20px;
+  padding: 10px;
+  width: 90%;
+}
+
+.book-details-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.book-details-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.book-details-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.book-image-container {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.book-image {
+  width: 80%;
+  max-width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-info {
+  flex: 1;
+  max-width: 50%;
+}
+
+.book-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.book-author,
+.book-genre,
+.book-rating,
+.book-year {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.book-author strong,
+.book-genre strong,
+.book-rating strong,
+.book-year strong {
+  color: #007bff;
+}
+
+.book-not-found {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ff0000;
+  padding: 50px 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .book-details-content {
+      text-align: center;
+  }
+
+  .book-image-container {
+      max-width: 300px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .book-info {
+      max-width: 90%;
+  }
+
+  .book-title {
+      font-size: 1.8rem;
+  }
+
+  .book-author,
+  .book-genre,
+  .book-rating,
+  .book-year {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .containerdetails, .book-details-container {
+      height: fit-content;
+  }
+
+  .book-details-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .book-info {
+      max-width: 100%; /* Ensures content aligns well on smaller screens */
+      padding: 0 10px;
+  }
+
+  h3{
+    font-size: x-large!important;
+  }
+}
+
+.back-button {
+  /* position: fixed; */
+  /* top: auto; */
+  /* left:auto; */
+  margin: 20px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
