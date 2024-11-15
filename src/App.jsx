@@ -18,6 +18,7 @@ const App = () => {
         <Navbar/>
         <MobileNavbar/>
         <Routes>
+          <Route path="/" element={<Home/>}/>
           <Route path="/libraryManagementSystem" element={<Home/>}/>
           <Route path="/browseBooks" element={<Books/>}/>
           <Route path="/addBook" element={<AddBook/>}/>

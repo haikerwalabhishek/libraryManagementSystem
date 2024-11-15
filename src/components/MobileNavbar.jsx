@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Searchbar from './Searchbar,jsx';
+import Searchbar from './Searchbar.jsx';
 import "./mobileNavbar.css";
 
 const MobileNavbar = () => {
