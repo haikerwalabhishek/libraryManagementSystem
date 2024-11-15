@@ -19,7 +19,7 @@ const App = () => {
         <MobileNavbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/libraryManagementSystem" element={<Home/>}/>
+          <Route path="/libraryManagementSystem/" element={<Home/>}/>
           <Route path="/browseBooks" element={<Books/>}/>
           <Route path="/addBook" element={<AddBook/>}/>
           <Route path="/bookdetails/:id" element={<BookDetails/>}/>
