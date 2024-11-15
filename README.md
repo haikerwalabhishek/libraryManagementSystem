@@ -1,4 +1,4 @@
-# ToDo App
+# Library Management System App
 
 ## Overview
 This Library book management system app is a simple frontend-only web application built using Vite and React. It demonstrates basic functionality without using a database or local storage to save tasks.
