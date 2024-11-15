@@ -12,7 +12,7 @@ import { store } from "./redux/store.js";
 const App = () => {
   return (
     <Provider store={store}>
-      <Router basename="/libraryManagementSystem">
+      <Router>
         <Navbar />
         <MobileNavbar />
         <Routes>
